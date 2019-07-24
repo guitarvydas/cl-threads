@@ -8,7 +8,9 @@ to start the example:
 
 CL-USER> (cl-threads:@main)
 
-to stop the example: 
+The example runs N times (N = 10).
+
+To stop the example early: 
 
 CL-USER> (cl-threads:kill-example)
 
